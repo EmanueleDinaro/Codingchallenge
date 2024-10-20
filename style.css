@@ -1,0 +1,98 @@
+body{
+  background-image: url('background.jpg');
+  background-attachment: fixed;
+  margin: 0;
+  background-size: 100%;
+}
+
+.transparentbg{
+  background-color: rgba(0,0,0,0.5);
+  width: 65%;
+  height: 800px;
+  margin: 50px auto;
+  border-radius: 20px;
+}
+
+header img{
+  padding-top: 50px;
+  margin: auto;
+  width: 250px;
+  display: flex;
+  align-items: center;
+}
+
+header h1{
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  color: #00dd00;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.greenbar{
+  background-color: #00dd00;
+  padding: 10px;
+  margin: 20px 80px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+main{
+  margin: 20px 80px;
+}
+
+main h2{
+  display: inline-block;
+  color: white;
+  font-family: sans-serif;
+  margin-bottom: 0
+}
+
+main span{
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+}
+
+/* barra sottostante alle barre di % carica */
+.barranera{
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.percentualecaricagino22{
+  background-color: #f5b453;
+  width: 30%;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+
+.percentualecaricamike24{
+  background-color: #1ec31e;
+  width: 60%;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.percentualecaricafede154{
+  background-color: #be4141;
+  width: 15%;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+/* hr{
+  border-color: black;
+  margin-top: 30px
+} */
